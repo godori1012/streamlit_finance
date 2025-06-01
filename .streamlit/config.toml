@@ -5,3 +5,16 @@ backgroundColor="#0E1117"  # 앱 전체 배경
 secondaryBackgroundColor="#262730"  # 위젯/컨테이너 배경
 textColor="#FAFAFA"        # 본문 텍스트
 font="sans serif"          # 'sans serif', 'serif', 'monospace'
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+
+[client]
+toolbarMode = "minimal"    # 'minimal' or 'auto'
+showErrorDetails = true
+
+[browser]
+gatherUsageStats = false
